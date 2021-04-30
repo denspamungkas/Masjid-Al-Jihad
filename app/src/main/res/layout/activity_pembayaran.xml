@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgorund"
+    tools:context=".Activity.User.PembayaranActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pembayaran2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama                  :"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/txt_nama_pembayaran"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bulan                   :"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/txt_bulan_pembayaran"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Tagihan :"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/txt_jumlah_tagihan_pembayaran"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metode Pembayaran :"
+                android:textColor="#000"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button_bca"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:text="Bank BCA"
+                android:textColor="#FFF"
+                android:background="@drawable/button_register"/>
+
+            <Button
+                android:id="@+id/button_ovo"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="OVO"
+                android:textColor="#FFF"
+                android:background="@drawable/button_register"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button_bayar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:text="Bayar"
+            android:textColor="#FFF"
+            android:background="@drawable/button_login"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>

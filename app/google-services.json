@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "308870185733",
+    "firebase_url": "https://aljihadapps.firebaseio.com",
+    "project_id": "aljihadapps",
+    "storage_bucket": "aljihadapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308870185733:android:84533bbf2b8493e60aed6c",
+        "android_client_info": {
+          "package_name": "com.example.deni.masjidal_jihad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308870185733-4dblc08boe22akk5lvnrq4sa13ukef5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deni.masjidal_jihad",
+            "certificate_hash": "33aeda0fdbd9dee42ae7cd27fdcfb51b78d2b85b"
+          }
+        },
+        {
+          "client_id": "308870185733-hifl91735gjlke1bouft072s02bbqpsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClN-Nm35hwnzFpS7TPVTnAybckZ5OoiIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308870185733-hifl91735gjlke1bouft072s02bbqpsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deni.masjidal_jihad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mosque"
+        android:label="Masjid Al-Jihad"
+        android:roundIcon="@drawable/mosque"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Admin.ProfileAdminActivity"></activity>
+        <activity android:name=".Activity.Admin.Iuran.IuranAdminActivity" />
+        <activity android:name=".Activity.Admin.Iuran.ValidasiBuktiPembayaranActivity" />
+        <activity android:name=".Activity.User.UploadBuktiPembayaranActivity" />
+        <activity android:name=".Activity.User.PembayaranActivity" />
+        <activity android:name=".Activity.Admin.Agenda.HapusAgendaRamadhanActivity" />
+        <activity android:name=".Activity.Admin.Agenda.EditAgendaRamadhanActivity" />
+        <activity android:name=".Activity.Admin.Agenda.HapusAgendaMaulidActivity" />
+        <activity android:name=".Activity.Admin.Agenda.EditAgendaMaulidActivity" />
+        <activity android:name=".Activity.Admin.Agenda.HapusAgendaIdulAdhaActivity" />
+        <activity android:name=".Activity.Admin.Agenda.HapusAgendaIdulFitriActivity" />
+        <activity android:name=".Activity.Admin.Agenda.EditAgendaIdulAdhaActivity" />
+        <activity android:name=".Activity.Admin.Agenda.EditAgendaIdulFitriActivity" />
+        <activity android:name=".Activity.Admin.Agenda.HapusAgendaKhutbahActivity" />
+        <activity android:name=".Activity.Admin.Agenda.EditAgendaKhutbahActivity" />
+        <activity android:name=".Activity.Admin.Agenda.KelolaAgendaDkmActivity" />
+        <activity android:name=".Activity.Admin.Agenda.LihatAgendaRamadhanActivity" />
+        <activity android:name=".Activity.Admin.Agenda.LihatAgendaMaulidActivity" />
+        <activity android:name=".Activity.Admin.Agenda.LihatAgendaIdulAdhaActivity" />
+        <activity android:name=".Activity.Admin.Agenda.LihatAgendaIdulFitriActivity" />
+        <activity android:name=".Activity.Admin.Agenda.LihatAgendaKhutbahActivity" />
+        <activity android:name=".Activity.Admin.Informasi.HapusInformasiAdminActivity" />
+        <activity android:name=".Activity.Admin.Agenda.KelolaAgendaMaulidActivity" />
+        <activity android:name=".Activity.Admin.Agenda.KelolaAgendaRamadhanActivity" />
+        <activity android:name=".Activity.Admin.Agenda.KelolaAgendaIdulAdhaActivity" />
+        <activity android:name=".Activity.Admin.Agenda.KelolaAgendaIdulFitriActivity" />
+        <activity android:name=".Activity.Admin.Agenda.KelolaAgendaKhutbahActivity" />
+        <activity android:name=".Activity.Admin.Informasi.EditInformasiAdminActivity" />
+        <activity android:name=".Activity.User.BeritaIslamiJaActivity" />
+        <activity android:name=".Activity.User.JadwalSholatJaActivity" />
+        <activity android:name=".Activity.User.KiblatJaActivity" />
+        <activity android:name=".Activity.User.RamadhanJaActivity" />
+        <activity android:name=".Activity.User.RiwayatTransaksiJaActivity" />
+        <activity android:name=".Activity.User.IuranJamaahActivity" />
+        <activity android:name=".Activity.User.MaulidJamaahActivity" />
+        <activity android:name=".Activity.User.IdulAdhaJamaahActivity" />
+        <activity android:name=".Activity.User.IdulFitriJamaahActivity" />
+        <activity android:name=".Activity.User.KhutbahJamaahActivity" />
+        <activity android:name=".Activity.User.AgendaJamaahActivity" />
+        <activity android:name=".Activity.User.InformasiJamaahActivity" />
+        <activity android:name=".Activity.Admin.Iuran.KonfirmasiPembayaranDkmActivity" />
+        <activity android:name=".Activity.Admin.Agenda.TambahAgendaMaulidActivity" />
+        <activity android:name=".Activity.Admin.Agenda.TambahAgendaRamadhanActivity" />
+        <activity android:name=".Activity.Admin.Agenda.TambahAgendaIdulAdhaActivity" />
+        <activity android:name=".Activity.Admin.Agenda.TambahAgendaIdulFitriActivity" />
+        <activity android:name=".Activity.Admin.Agenda.TambahAgendaKhutbahActivity" />
+        <activity android:name=".Activity.User.LupaPasswordActivity" />
+        <activity android:name=".Activity.Admin.Informasi.KelolaInformasiDkm" />
+        <activity android:name=".Activity.Admin.Informasi.LihatInformasiAdmin" />
+        <activity android:name=".Activity.Admin.Informasi.InformasiAdminActivity" />
+        <activity android:name=".Activity.User.MainActivity" />
+        <activity android:name=".Activity.User.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Admin.DkmActivity" />
+        <activity android:name=".Activity.User.RegisterActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

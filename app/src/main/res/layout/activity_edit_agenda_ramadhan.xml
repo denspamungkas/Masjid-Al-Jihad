@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Admin.Agenda.EditAgendaRamadhanActivity"
+    android:background="@drawable/backgorund"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/editramadhan2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="Tanggal    : "
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/tanggaleditramadhan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Nama        :"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/namaeditramadhan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat       :"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/alamateditramadhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isi Aamat"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:minLines="4"
+            android:gravity="top|left"
+            android:maxLines="7"
+            android:scrollbars="vertical"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_lihat_edit_ramadhan"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/button_submit"
+        android:text="Edit"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
